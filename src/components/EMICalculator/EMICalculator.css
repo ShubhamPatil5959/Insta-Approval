@@ -1,0 +1,59 @@
+/* EMICalculator.css */
+.emi-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center both horizontally and vertically */
+  height: 100vh;
+  padding: 20px; /* Equal padding on all sides */
+}
+
+.emi-card {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.emi-heading {
+  text-align: center; /* Center the heading */
+  font-family: "Your Good Font Family", sans-serif; /* Replace with your desired font family */
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold; /* Add bold style if desired */
+  margin-bottom: 20px; /* Add some bottom margin */
+}
+
+.emi-pie-chart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 300px; /* Adjust as needed */
+  margin: auto;
+  margin-top: 20px; /* Add some top margin */
+}
+
+.emi-pie-chart-labels {
+  text-align: center;
+}
+
+/* Add more styles for buttons, sliders, typography, etc. as needed */
+
+/* Media Query for Large Screens */
+@media (min-width: 768px) {
+  .emi-card {
+    max-width: 800px; /* Increase the max-width as needed for large screens */
+  }
+}
+
+.heading {
+  font-family: "Arial", sans-serif; /* Use your preferred font family */
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add some space below the heading */
+  color: #333; /* Set the text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a text shadow effect */
+  text-align: center;
+}

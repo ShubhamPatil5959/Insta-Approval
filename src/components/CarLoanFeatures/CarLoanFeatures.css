@@ -1,0 +1,28 @@
+/* CarLoanFeatures.css */
+.card {
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+  margin-bottom: 16px; /* Adjust the margin as needed */
+  margin-top: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.card-content {
+  padding: 16px; /* Adjust the padding as needed */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+}
+.heading {
+  font-family: "Arial", sans-serif; /* Use your preferred font family */
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add some space below the heading */
+  color: #333; /* Set the text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a text shadow effect */
+}
+.car-loan-features {
+  text-align: center;
+}

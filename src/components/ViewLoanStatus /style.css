@@ -1,0 +1,21 @@
+/* styles.css */
+/* styles.css */
+.button-container {
+    text-align: center;
+  }
+  
+  .button {
+    margin-top: 1rem;
+  }
+  
+  .intro-text {
+    font-style: bold;
+    font-size: 30px;
+  }
+  
+  .first-name {
+    border: 2px solid #007bff; /* You can adjust the border style and color */
+    padding: 10px; 
+    margin-right: 700px;
+  }
+  

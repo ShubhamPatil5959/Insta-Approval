@@ -1,0 +1,33 @@
+/* Add this CSS to your component's stylesheet or import a separate CSS file */
+
+/* Style the container for the buttons */
+.actions-container {
+  display: flex;
+  align-items: center; /* Center buttons vertically */
+}
+
+/* Add some margin between the buttons */
+.actions-container button {
+  margin-right: 8px; /* Adjust as needed for spacing */
+}
+
+/* Adjust the spacing between the table cells */
+/* You may need to add a class or ID to your table to target it specifically */
+/* This example targets all tables, so make sure it doesn't affect other tables on your page */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 8px; /* Adjust as needed for spacing */
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Style the table header */
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
