@@ -1,3 +1,4 @@
-  - name: node:lts
+steps:
+   - name: node:lts
     entrypoint: npm
     args: ["install"]
