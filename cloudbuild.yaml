@@ -2,3 +2,8 @@ steps:
   - name: 'node:lts'
     entrypoint: 'npm'
     args: ['install']
+options:
+  logging: CLOUD_LOGGING_ONLY    
+    
+    
+    
